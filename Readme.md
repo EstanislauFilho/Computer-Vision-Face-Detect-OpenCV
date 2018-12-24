@@ -1,6 +1,8 @@
 # Detecção de Faces com OpenCV e Python
 
 Este projeto conciste na criação de scripts em python capazes de fazer a detecção de faces em imagens ou pela captura em tempo real de imagem utilizando a biblioteca OpenCV e a linguagem de programação Python
+![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Detect-OpenCV/master/Imagens/to/faces_detected.png)
+
 
 ## Getting Started
 
