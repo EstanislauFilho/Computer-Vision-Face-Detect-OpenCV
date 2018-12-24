@@ -1,50 +1,38 @@
 # Detecção de Faces com OpenCV e Python
 
-Este projeto conciste na criação de scripts em python capazes de fazer a detecção de faces em imagens ou pela captura em tempo real de imagem utilizando a biblioteca OpenCV e a linguagem de programação Python
+Este projeto conciste na criação de scripts em python capazes de fazer a detecção de faces em imagens ou em streaming por meio de uma Webcam. Para desenvolvimento deste projeto utilizou-se a biblioteca OpenCV e a linguagem de programação Python.
+
 ![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Detect-OpenCV/master/Imagens/faces_detected.png)
 
 
-## Getting Started
+## Iniciando o Projeto
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+As instruções a seguir permitirá que você possa executar, desenvolver e contribuir para o projeto em questão. Siga todas as etapas a seguir para executar o projeto de Detecção Facial utilizando a biblioteca OpenCV e a linguagem de programação Python.
 
 ### Pré-requisitos
 
-Para executar os scripts em Python presentes nesse projeto, você ira precisar instalar:
+Para executar os scripts em Python presentes nesse projeto, você precisa instalar em sua máquina os seguintes componentes:
 
 ```
-Python 3.0 ou superior
-OpenCV+contrib
+Python 3.0 ou superior.
+
+IDE de sua preferência.
+
+OpenCV+contrib.
 ```
 
-### Installing
+## Execução e Testes
 
-A step by step series of examples that tell you how to get a development env running
+Para executar e testar os scripts face_detect_image.py e face_detect_webcam.py, você inicialmente deve abri-los em seu ambiente de desenvolvimento em Python.
 
-Say what the step will be
+### Executando o face_detect_image.py
 
-```
-Give the example
-```
+Esse script em python irá fazer a detecção facial de pessoas em uma imagem do tipo jpg. Para esse experimento utilizou-se a imagem '''scientists.jpg''' presente na pasta '''Imagens'''. Para a correta detecção de faces foi nescessário determinar os parâmetros '''scaleFactor''', '''minSize''' e '''minNeighbors''' na função '''detectMultiScale'''. Para testa-lo basta executá-lo na própria IDE.
 
-And repeat
+Outra forma de executar o script é via terminal, pelo seguinte comando: 
 
 ```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+sudo python3 face_detect_image.py
 ```
 
 ### And coding style tests
