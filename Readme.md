@@ -1,17 +1,18 @@
-# Project Title
+# Detecção de Faces com OpenCV e Python
 
-One Paragraph of project description goes here
+Este projeto conciste na criação de scripts em python capazes de fazer a detecção de faces em imagens ou pela captura em tempo real de imagem utilizando a biblioteca OpenCV e a linguagem de programação Python
 
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-### Prerequisites
+### Pré-requisitos
 
-What things you need to install the software and how to install them
+Para executar os scripts em Python presentes nesse projeto, você ira precisar instalar:
 
 ```
-Give examples
+Python 3.0 ou superior
+OpenCV+contrib
 ```
 
 ### Installing
