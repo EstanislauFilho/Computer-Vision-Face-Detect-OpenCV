@@ -1,3 +1,3 @@
 import cv2
 
-print(cv2.__version__)
+face_classifier = cv2.CascadeClassifier("Classificador/haarcascade_frontalface_default.xml")
