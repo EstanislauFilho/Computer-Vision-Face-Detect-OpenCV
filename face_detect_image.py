@@ -11,3 +11,6 @@ faces_detect = face_classifier.detectMultiScale(image_gray)
 while(True):
     for(x, y, width, height) in faces_detect:
         cv2.rectangle(image, (x, y), (x + width, y + height), (0, 255, 0), 2)
+
+    cv2.imshow("Face Detectadas", image)
+    cv2.waitKey(1)
