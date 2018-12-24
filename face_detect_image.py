@@ -6,7 +6,7 @@ image = cv2.imread("Imagens/scientists.jpg")
 
 image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-faces_detect = face_classifier.detectMultiScale(image_gray)
+faces_detect = face_classifier.detectMultiScale(image_gray, scaleFactor=1.2, minSize=(30,30), minNeighbors=4)
 
 while(True):
     for(x, y, width, height) in faces_detect:
