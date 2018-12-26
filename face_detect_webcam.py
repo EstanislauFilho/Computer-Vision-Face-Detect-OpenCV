@@ -14,7 +14,11 @@ while(True):
     for (x, y, width, heigth) in faces_video:
         cv2.rectangle(image_video, (x, y), (x + width, y + heigth), (0, 255, 0), 2)
 
-    cv2.imshow("Captura Video funcionando", image_video)
+    cv2.imshow("Faces Detectadas na Webcam", image_video)
     cv2.waitKey(1)
+
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+        
 video.release()
 cv2.destroyAllWindows()
