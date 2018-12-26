@@ -8,3 +8,7 @@ while(True):
     conect, image_video = video.read()
 
     image_video_gray = cv2.cvtColor(image_video, cv2.COLOR_BGR2GRAY)
+
+    faces_video = detectMultiScale(image_video_gray)
+
+    
