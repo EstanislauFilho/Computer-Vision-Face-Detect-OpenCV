@@ -9,6 +9,7 @@ while(True):
 
     image_video_gray = cv2.cvtColor(image_video, cv2.COLOR_BGR2GRAY)
 
-    faces_video = detectMultiScale(image_video_gray)
-
-    
+    cv2.imshow("Captura Video funcionando", image_video)
+    cv2.waitKey(1)
+video.release()
+cv2.destroyAllWindows()
