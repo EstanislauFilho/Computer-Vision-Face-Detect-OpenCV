@@ -1,3 +1,8 @@
+'''
+Autor: Estanislau de Sena Filho
+Programa: Detecção Facial em imagens.
+'''
+
 import cv2
 
 face_detect = cv2.CascadeClassifier("Classificador/haarcascade_frontalface_default.xml")
@@ -19,6 +24,6 @@ while(True):
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
-        
+
 video.release()
 cv2.destroyAllWindows()
