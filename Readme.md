@@ -71,6 +71,5 @@ Este não é um projeto licenciado. Sua finalidade é única excluisiva para est
 ## Agradecimentos
 
 * Jones Granatyr e Gabriel Alves
-* Natália Batista
 
 
