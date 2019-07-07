@@ -1,29 +1,27 @@
-# Detecção de Faces com OpenCV e Python
+# Face Detection with OpenCV and Python
 
-Este projeto conciste na criação de scripts em python capazes de fazer a detecção de faces em imagens ou em streaming por meio de uma Webcam. Para desenvolvimento deste projeto utilizou-se a biblioteca OpenCV e a linguagem de programação Python.
+This project concerns the creation of python scripts capable of detecting faces in images or in streaming through a Webcam. For the development of this project, the OpenCV library and the Python programming language were used.
 
 ![alt text](https://raw.githubusercontent.com/EstanislauFilho/Computer-Vision-Face-Detect-OpenCV/master/Imagens/faces_detected.png)
 
 
-## Iniciando o Projeto
+## Starting the Project
 
-As instruções a seguir permitirá que você possa executar, desenvolver e contribuir para o projeto em questão. Siga todas as etapas abaixo para executar o projeto de Detecção Facial utilizando a biblioteca OpenCV e a linguagem de programação Python.
+The following instructions will allow you to run, develop and contribute to the project in question. Follow all the steps below to run the Facial Detection project using the OpenCV library and the Python programming language.
 
-### Pré-requisitos
+### Prerequisites
 
-Para executar os scripts em Python presentes nesse projeto, você precisa instalar em sua máquina os seguintes componentes:
+To run the scripts in  python present in this project, you need to install the following components on your machine:
 
 ```
-Python 3.0 ou superior.
+Python 3.0 or higher version.
 
-IDE de sua preferência.
-
-OpenCV+contrib.
+OpenCV+Contrib.
 ```
 
-## Execução e Testes
+## Execution and Testing
 
-Para executar e testar os scripts face_detect_image.py e face_detect_webcam.py, você inicialmente deve abri-los em seu ambiente de desenvolvimento em Python.
+To run and test the face_detect_image.py and face_detect_webcam.py scripts, you should initially open them in your Python development environment.
 
 ### Executando o face_detect_image.py
 
