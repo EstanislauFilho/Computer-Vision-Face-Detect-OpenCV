@@ -23,50 +23,50 @@ OpenCV+Contrib.
 
 To run and test the face_detect_image.py and face_detect_webcam.py scripts, you should initially open them in your Python development environment.
 
-### Executando o face_detect_image.py
+### Running face_detect_image.py
 
-Esse script em python irá fazer a detecção facial de pessoas em uma imagem do tipo jpg. Para esse experimento utilizou-se a imagem "scientists.jpg" presente na pasta "Imagens". Para a correta detecção de faces foi nescessário determinar os parâmetros "scaleFactor", "minSize" e "minNeighbors" na função "detectMultiScale". Para testa-lo basta executá-lo pela própria IDE.
+This python script does the face detection of people in static image. For this experiment was used the image "scientists.jpg" present in the "Images" folder. For correct face detection, it was necessary to determine the parameters "scaleFactor", "minSize" and "minNeighbors" in the function "detectMultiScale". To test it just run it on the IDE.
 
-Outra forma de executar o script é via terminal, pelo seguinte comando: 
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 face_detect_image.py
 ```
 
-### Executando o face_detect_webcam.py
+### Running face_detect_webcam.py
 
-Esse script em python tem como finalidade fazer a detecção facial em streming através de uma webcam. Para testa-lo basta  executá-lo pela própria IDE. 
+This script in python makes the facial detection in streming video through a webcam. To test it just run it in the IDE.
 
 
-Outra forma de executar o script é via terminal, pelo seguinte comando:
+Another way to execute the script is via terminal, by the following command:
 
 ```
 sudo python3 face_detect_webcam.py
 ```
 
-## Desenvolvido com
+## Developed with
 
-* [OpenCV](https://opencv.org/) - Biblioteca de visão computacional desenvolvidade pela Intel em 1999;
-* [Python Software Foundation](https://maven.apache.org/) - LIguagem programação;
-* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE utilizada para desenvolvimento dos scrpts.
+* [OpenCV](https://opencv.org/) - Computer vision library developed by Intel in 1999;
+* [Python Software Foundation](https://maven.apache.org/) - Language programming;
+* [PyCharm](https://www.jetbrains.com/pycharm/) - IDE used for script development.
 
-## Contribuindo
+## Contributing
 
-Por favor, leia Contributing.md para detalhes sobre o processo para enviar pedidos de pull para o desenvolvedor.
+Please read Contributing.md for details on the process for submitting pull requests to the developer.
 
-## Versão
+## Version
 
-Para as versões disponíveis, consulte as tags neste repositório. 
+For the available versions, see the tags in this repository.
 
-## Autores
+## Authors
 
 * **Estanislau de Sena Filho** - *Computer Engineering Student at* [CEFET-MG](http://www.cefetmg.br/)
 
-## Licença
+## License
 
-Este não é um projeto licenciado. Sua finalidade é única excluisiva para estudo e aprendizagem sobre visão computacional.
+This is not a licensed project. Its purpose is unique to studying and learning about computer vision.
 
-## Agradecimentos
+## Special thanks
 
 * Jones Granatyr e Gabriel Alves
 
