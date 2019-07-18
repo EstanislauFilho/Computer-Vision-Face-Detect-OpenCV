@@ -1,8 +1,8 @@
-Prezado(a)s,
+Dears,
 
-Para solicitações de pull e contribuições com o projeto, envie um e-mail para estanislau.sena@live.com com o assunto [Github Face Detect]. 
+For pull requests and contributions with the project, send an email to estanislau.sena@live.com with the subject [Github Face Detect]. 
 
-Atenciosamente,
+Regards,
 
 Estanislau de Sena FIlho
 
